@@ -1,10 +1,7 @@
 import Header from "./components/header";
 
 function App(): JSX.Element {
-  return (
-    <Header />
-  )
-
+  return <Header />;
 }
 
 export default App;
