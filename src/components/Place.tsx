@@ -6,7 +6,7 @@ interface PlaceProps {
 }
 
 function Place(props: PlaceProps): JSX.Element {
-  const placeStyle: any = {
+  const placeStyle: object = {
     textAlign: "center",
     backgroundColor: "#c4af68",
     padding: "20px",

@@ -1,5 +1,5 @@
 function Header(): JSX.Element {
-  const headerStyle: any = {
+  const headerStyle: object = {
     color: "white",
     backgroundColor: "#8c223b",
     textAlign: "center",
