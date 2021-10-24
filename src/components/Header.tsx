@@ -5,7 +5,7 @@ function Header(): JSX.Element {
     textAlign: "center",
     fontSize: "50px",
     padding: "20px",
-    margin: "10px"
+    margin: "10px",
   };
   return <h1 style={headerStyle}>My Favourite Places</h1>;
 }

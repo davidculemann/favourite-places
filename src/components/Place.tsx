@@ -10,8 +10,8 @@ function Place(props: PlaceProps): JSX.Element {
     textAlign: "center",
     backgroundColor: "#c4af68",
     padding: "20px",
-    margin: "10px"
-  }
+    margin: "10px",
+  };
 
   return (
     <section style={placeStyle}>
