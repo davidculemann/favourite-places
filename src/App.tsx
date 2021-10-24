@@ -1,7 +1,13 @@
-import { greet } from "./utils/greet";
+import Header from "./components/Header";
+import PlaceList from "./components/PlaceList";
 
 function App(): JSX.Element {
-  return <h1>{greet("World")}</h1>;
+  return (
+    <>
+      <Header />
+      <PlaceList />
+    </>
+  );
 }
 
 export default App;
