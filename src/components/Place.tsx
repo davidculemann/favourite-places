@@ -1,5 +1,3 @@
-//import { TextAlignProperty } from 'csstype'
-
 interface PlaceProps {
   name: string;
   location: string;
@@ -7,22 +5,22 @@ interface PlaceProps {
   imageAlt: string;
 }
 
-interface StyleProps {
-  textAlign: any;
-  backgroundColor: string;
-  padding: string;
-  marginRight: string;
-  marginLeft: string;
-  marginTop: string;
-  marginBottom: string;
-  borderColor: string;
-  borderWidth: string;
-  borderStyle: string;
-  width: string;
-}
+// interface StyleProps {
+//   //textAlign: TextAlignProperty;
+//   backgroundColor: string;
+//   padding: string;
+//   marginRight: string;
+//   marginLeft: string;
+//   marginTop: string;
+//   marginBottom: string;
+//   borderColor: string;
+//   borderWidth: string;
+//   borderStyle: string;
+//   width: string;
+// }
 
 function Place(props: PlaceProps): JSX.Element {
-  const placeStyle: StyleProps = {
+  const placeStyle: React.CSSProperties = {
     textAlign: "center",
     backgroundColor: "#c4af68",
     padding: "20px",
