@@ -37,4 +37,4 @@
 //     );
 //   }
 
-//   export default PlaceList;
+export { };
