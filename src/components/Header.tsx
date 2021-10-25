@@ -1,5 +1,14 @@
+interface HeaderProps {
+  color: string;
+  backgroundColor: string;
+  textAlign: any;
+  fontSize: string;
+  padding: string;
+  margin: string;
+}
+
 function Header(): JSX.Element {
-  const headerStyle: object = {
+  const headerStyle: HeaderProps = {
     color: "white",
     backgroundColor: "#8c223b",
     textAlign: "center",

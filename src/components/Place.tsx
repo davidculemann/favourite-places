@@ -1,3 +1,5 @@
+//import { TextAlignProperty } from 'csstype'
+
 interface PlaceProps {
   name: string;
   location: string;
@@ -5,12 +7,33 @@ interface PlaceProps {
   imageAlt: string;
 }
 
+interface StyleProps {
+  textAlign: any;
+  backgroundColor: string;
+  padding: string;
+  marginRight: string;
+  marginLeft: string;
+  marginTop: string;
+  marginBottom: string;
+  borderColor: string;
+  borderWidth: string;
+  borderStyle: string;
+  width: string;
+}
+
 function Place(props: PlaceProps): JSX.Element {
-  const placeStyle: object = {
+  const placeStyle: StyleProps = {
     textAlign: "center",
     backgroundColor: "#c4af68",
     padding: "20px",
-    margin: "10px",
+    marginRight: "auto",
+    marginLeft: "auto",
+    marginTop: "10px",
+    marginBottom: "10px",
+    borderColor: "green",
+    borderWidth: "20px",
+    borderStyle: "solid",
+    width: "60%",
   };
 
   return (
@@ -18,7 +41,7 @@ function Place(props: PlaceProps): JSX.Element {
       <img
         src={props.imageURL}
         alt={props.imageAlt}
-        width="50%"
+        width="90%"
         height="auto"
       ></img>
       <h2>{props.name}</h2>
